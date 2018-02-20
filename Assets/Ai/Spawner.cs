@@ -13,7 +13,8 @@ public class Spawner : MonoBehaviour {
         InvokeRepeating("Spawn", spawnInterval, spawnInterval);
 	}
 
-	void Spawn () {
+
+    void Spawn () {
         int spawnPointIndex = Random.Range(0, spawnPoints.Length);
         Instantiate(enemy, spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
 	}

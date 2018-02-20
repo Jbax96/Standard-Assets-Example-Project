@@ -1,2 +1,0 @@
-G:\Unity\Standard Assets Example Project\Temp\UnityVS_obj\Debug\Standard Assets Example Project.csprojResolveAssemblyReference.cache
-G:\Unity\Standard Assets Example Project\Temp\UnityVS_obj\Debug\Standard Assets Example Project.csproj.CoreCompileInputs.cache

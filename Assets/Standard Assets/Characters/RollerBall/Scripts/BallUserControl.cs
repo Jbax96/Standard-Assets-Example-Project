@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityStandardAssets.CrossPlatformInput;
 
 namespace UnityStandardAssets.Vehicles.Ball
@@ -55,6 +56,11 @@ namespace UnityStandardAssets.Vehicles.Ball
             {
                 // we use world-relative directions in the case of no main camera
                 move = (v*Vector3.forward + h*Vector3.right).normalized;
+            }
+
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
 

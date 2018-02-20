@@ -8,7 +8,6 @@ public class Cars : MonoBehaviour {
     public int currentLap;
     public Transform lastWaypoint;
     public int nbWaypoint;
-    public Text position;
 
     private static int WAYPOINT_VALUE = 100;
     private static int LAP_VALUE = 10000;
@@ -21,7 +20,7 @@ public class Cars : MonoBehaviour {
         cpt_waypoint = 0;
 
 	}
-	
+
     public void OnTriggerEnter(Collider other)
     {
         string otherTag = other.gameObject.tag;
@@ -54,30 +53,16 @@ public class Cars : MonoBehaviour {
             {
                 position++;
             }
-            return position;
         }
         return position;
     }
+
+    public int getCarLap()
+    {
+        int currentLap = 0;
+            currentLap = this.currentLap;
+        return currentLap;
+    }
+
 }
-public class RaceController : MonoBehaviour
-{
-    public Cars[] carCollection;
-    public Cars[] carPosition;
 
-    // Use this for initialization
-    public void Start()
-    {
-        //set up the car objects
-        carPosition = new Cars[carPosition.Length];
-        InvokeRepeating("Update", 0.5f, 0.5f);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        foreach (Cars car in carCollection)
-        {
-            carPosition[car.getCarPosition(carCollection) - 1] = car;
-        }
-    }
-} 

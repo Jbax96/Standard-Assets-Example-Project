@@ -35,7 +35,7 @@ public class PauseMenu : MonoBehaviour
         m_Paused = false;
     }
 
-
+    
     public void OnMenuStatusChange ()
     {
         if (m_MenuToggle.isOn && !m_Paused)

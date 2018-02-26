@@ -9,15 +9,17 @@ public class Accessibility : MonoBehaviour {
     public float slowSpeed = 0.3f;
 
     private bool isSlow;
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start() {
         Time.timeScale = fullSpeed;
-	}
+    }
 	
 	// Update is called once per frame
-	//void Update () {
-       // if (Input.getKeyDown(keyCode.q)){
-       //     Time.timeScale = slowSpeed;
-//}
-	//}
-}
+	void Update () {
+
+        //Reduce Game Speed
+        if (Input.GetKeyDown(KeyCode.Q))
+            Time.timeScale = slowSpeed;
+        }
+	}
+

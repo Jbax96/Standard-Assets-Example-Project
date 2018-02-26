@@ -462,7 +462,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.2}
   m_AnchorMax: {x: 1, y: 0.8}
-  m_AnchoredPosition: {x: 4, y: 0}
+  m_AnchoredPosition: {x: 6, y: 0}
   m_SizeDelta: {x: 1000, y: 0}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &291602810
@@ -625,6 +625,10 @@ Prefab:
     - target: {fileID: 19800002, guid: 180149b1a35449044a27b451e816d2de, type: 2}
       propertyPath: randomSeed
       value: 402703487
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 180149b1a35449044a27b451e816d2de, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 180149b1a35449044a27b451e816d2de, type: 2}
@@ -1312,7 +1316,7 @@ GameObject:
   - component: {fileID: 653036148}
   m_Layer: 0
   m_Name: RightMirror
-  m_TagString: MainCamera
+  m_TagString: Mirror
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1544,7 +1548,7 @@ GameObject:
   - component: {fileID: 663235253}
   m_Layer: 0
   m_Name: LeftMirror
-  m_TagString: MainCamera
+  m_TagString: Mirror
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2520,6 +2524,46 @@ Prefab:
       propertyPath: InitialModule.startSizeZ.minMaxState
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 180149b1a35449044a27b451e816d2de, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800012, guid: 180149b1a35449044a27b451e816d2de, type: 2}
+      propertyPath: InitialModule.startSizeY.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800012, guid: 180149b1a35449044a27b451e816d2de, type: 2}
+      propertyPath: InitialModule.startSizeZ.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800008, guid: 180149b1a35449044a27b451e816d2de, type: 2}
+      propertyPath: InitialModule.startRotationX.minMaxState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800008, guid: 180149b1a35449044a27b451e816d2de, type: 2}
+      propertyPath: InitialModule.startRotationX.scalar
+      value: 3.1415927
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800008, guid: 180149b1a35449044a27b451e816d2de, type: 2}
+      propertyPath: InitialModule.startRotationY.minMaxState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800008, guid: 180149b1a35449044a27b451e816d2de, type: 2}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 3.1415927
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 180149b1a35449044a27b451e816d2de, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800004, guid: 180149b1a35449044a27b451e816d2de, type: 2}
+      propertyPath: InitialModule.startSizeY.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800004, guid: 180149b1a35449044a27b451e816d2de, type: 2}
+      propertyPath: InitialModule.startSizeZ.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 180149b1a35449044a27b451e816d2de, type: 2}
   m_IsPrefabParent: 0
@@ -2718,9 +2762,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '
-
-'
+  m_Text: Position
 --- !u!222 &1052508748
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2744,7 +2786,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.2}
   m_AnchorMax: {x: 1, y: 0.8}
-  m_AnchoredPosition: {x: 198, y: 0}
+  m_AnchoredPosition: {x: 103, y: 0}
   m_SizeDelta: {x: 1000, y: 0}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!1 &1057755537 stripped
@@ -3402,7 +3444,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.02, y: 0.9}
   m_AnchorMax: {x: 0.06, y: 0.98}
-  m_AnchoredPosition: {x: 179, y: 0}
+  m_AnchoredPosition: {x: 113, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1339225856
@@ -3417,7 +3459,7 @@ GameObject:
   - component: {fileID: 1339225858}
   - component: {fileID: 1339225857}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Start/Finish
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5235,6 +5277,22 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e0934c473b84f964780ab79d268cc37f, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1792243098 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1318561177305118, guid: e0934c473b84f964780ab79d268cc37f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1792243097}
+--- !u!114 &1792243099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1792243098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 305395df147fa9f4a9041798a969b66b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1802618059 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 2}
@@ -5851,6 +5909,10 @@ Prefab:
     - target: {fileID: 19800002, guid: 180149b1a35449044a27b451e816d2de, type: 2}
       propertyPath: randomSeed
       value: -239279223
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 180149b1a35449044a27b451e816d2de, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 180149b1a35449044a27b451e816d2de, type: 2}

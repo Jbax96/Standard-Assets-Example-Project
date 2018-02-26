@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CubeRotator : MonoBehaviour {
-
+    public Vector3 rotation;
 	// Use this for initialization
 	void Start () {
 		
@@ -11,6 +11,6 @@ public class CubeRotator : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.Rotate(new Vector3(0,10, 0) * Time.deltaTime);
+        transform.Rotate(rotation * Time.deltaTime);
     }
 }

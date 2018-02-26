@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Shootable : MonoBehaviour {
 
@@ -13,6 +14,10 @@ public class Shootable : MonoBehaviour {
         if(currentHealth <= 0)
         {
             gameObject.SetActive(false);
+            if(gameObject.tag == "fire")
+            {
+               SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
         }
     }
 }

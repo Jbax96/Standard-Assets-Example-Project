@@ -58,10 +58,7 @@ namespace UnityStandardAssets.Vehicles.Ball
                 move = (v*Vector3.forward + h*Vector3.right).normalized;
             }
 
-            if (Input.GetKeyDown(KeyCode.R))
-            {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            }
+          
         }
 
 

@@ -5,17 +5,20 @@ using UnityEngine;
 public class Rocket : MonoBehaviour {
 
     public float speed = 1;
-
+    public int gunDamage;
     public GameObject explosionPrefab;
 
     private void FixedUpdate()
     {
-        //Rigidbody rigidbody = GetComponent<Rigidbody>();
-        // Check bullet location relative to explosion
-        //rigidbody.AddForce(transform.position * speed, ForceMode.Impulse);
     }
     private void OnCollisionEnter(Collision c)
     {
+        Shootable health = c.collider.GetComponent<Shootable>();
+
+        if (health != null)
+        {
+            health.Damage(gunDamage);
+        }
         Instantiate(explosionPrefab, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }

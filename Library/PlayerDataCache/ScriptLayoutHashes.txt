@@ -1,15 +1,12 @@
 WindowsStandalone
 SceneListBegin?
-Assets/MainMenu.unity
-Assets/ThirdPerson/newThirdPerson.unity
-Assets/Racer.unity
 Assets/First Person Maze/Scenes/First Person Maze.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LevelReset
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LevelLoader
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SceneAndURLLoader
 7ba1e84ad3d2d8813486668e75f842ce Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.ExtinguishableParticleSystem
-b4598e313734e67e4cd93a193470291c Assembly-CSharp.dll:.Rocket
+c299eed2892b6931a0a1ae0c09300a11 Assembly-CSharp.dll:.Rocket
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 970a95104359198fe1a98ef48655de8c UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 8144169769d51429c4aedc8b0f92d47b UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -26,6 +23,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 0ea7e3a1b65cd933d7a007e6774c4eaa Assembly-CSharp-firstpass.dll:UnityStandardAssets.Characters.ThirdPerson.AICharacterControl
 8d329f120602b3d23ac6605f0b955a77 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Characters.FirstPerson.FirstPersonController
 430c1729d7a445aa5df470ced463fca9 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.ExplosionPhysicsForce
+ed162d50f6a15993bf6f38080a21a640 Assembly-CSharp.dll:.SpawnPosition
 edc45978676597aec8b0f6e32c334667 Assembly-CSharp.dll:.CubeRotator
 c35752b81d25e001fee445da226f3c4e Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Car.Suspension
 0df26d7642d4095bdac77a78b25e44a4 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Car.BrakeLight
@@ -177,7 +175,7 @@ cfa93710d56cd4da2a3b2eec27bc1139 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Water.Displace
 6cce03838852a926ad0d8958461a4f28 Assembly-CSharp.dll:UnityStandardAssets.SceneUtils.ParticleSceneControls
-3cbef0c7018a19e967f25d1346850957 Assembly-CSharp.dll:.EnemyAttack
+71212c0e87fb692a50320eec718a59b8 Assembly-CSharp.dll:.EnemyAttack
 01189dce9b1ddab1eebd984760b43877 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Aeroplane.LandingGear
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.MobileControlRig
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.ObjectResetter
@@ -224,6 +222,7 @@ a900e76e2afe8b7079113ccd31f9024e Assembly-CSharp.dll:.LiftX
 48718eef89369acea1a78774e6908099 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Cameras.TargetFieldOfView
 2c62b9ae79b8b54dd7b55fa7d311452b Assembly-CSharp-firstpass.dll:UnityStandardAssets.Water.Water
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets._2D.Platformer2DUserControl
+90923d41724b062b0fc9708f1f1aea81 Assembly-CSharp.dll:.PlayerHealth
 b1f0704fc1b542c80ecf3fa1bbf472a1 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController
 aed7a093a3c9b018fe2666f3d94c06d5 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Cameras.HandHeldCam
 0afbef59df7a9fa9f3fef07dbd3bd833 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Vehicles.Aeroplane.AeroplanePropellerAnimator

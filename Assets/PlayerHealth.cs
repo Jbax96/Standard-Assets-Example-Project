@@ -4,19 +4,17 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour {
-    public int currentHealth = 3;
 
-    public void Damage(int damageAmount)
+    public const int maxHealth = 100;
+    public int currentHealth = maxHealth;
 
+    public void TakeDamage(int amount)
     {
-        currentHealth -= damageAmount;
+        currentHealth -= amount;
         if (currentHealth <= 0)
         {
-            gameObject.SetActive(false);
-            if (gameObject.tag == "fire")
-            {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            }
+            currentHealth = 0;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }

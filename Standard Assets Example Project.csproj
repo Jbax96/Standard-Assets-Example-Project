@@ -345,6 +345,7 @@
     <Compile Include="Assets\Accessibility.cs" />
     <Compile Include="Assets\Ai\CameraChange.cs" />
     <Compile Include="Assets\Ai\Spawner.cs" />
+    <Compile Include="Assets\Bullet.cs" />
     <Compile Include="Assets\Cars.cs" />
     <Compile Include="Assets\CollideWithGoal.cs" />
     <Compile Include="Assets\CubeRotator.cs" />
@@ -354,6 +355,7 @@
     <Compile Include="Assets\First Person Maze\Scripts\Rocket.cs" />
     <Compile Include="Assets\First Person Maze\Scripts\Rotator.cs" />
     <Compile Include="Assets\First Person Maze\Scripts\Shootable.cs" />
+    <Compile Include="Assets\Health.cs" />
     <Compile Include="Assets\LevelLoader.cs" />
     <Compile Include="Assets\Lift.cs" />
     <Compile Include="Assets\LiftX.cs" />
@@ -364,6 +366,7 @@
     <Compile Include="Assets\NavigateMenuShortcuts.cs" />
     <Compile Include="Assets\NavigateToMenu.cs" />
     <Compile Include="Assets\PlayerHealth.cs" />
+    <Compile Include="Assets\PlayerShoot.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\IcoBumpin.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Misc\HueCube.cs" />

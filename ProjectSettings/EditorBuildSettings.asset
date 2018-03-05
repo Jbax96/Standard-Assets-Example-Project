@@ -47,13 +47,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Ai.unity
     guid: 2a34d2c4865044249bbe334423f5052d
-  - enabled: 1
+  - enabled: 0
     path: Assets/MainMenu.unity
     guid: 01452fe486e200e4684b7f735665cb78
-  - enabled: 1
+  - enabled: 0
     path: Assets/ThirdPerson/newThirdPerson.unity
     guid: e3cf1db0bdfa1ae4595709ef8bb95ddf
-  - enabled: 1
+  - enabled: 0
     path: Assets/Racer.unity
     guid: 2a0ef0b04b12e054d9c415d69303b8da
   - enabled: 1

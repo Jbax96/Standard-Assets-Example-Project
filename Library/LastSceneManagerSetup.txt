@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Racer.unity
+- path: Assets/First Person Maze/Scenes/First Person Maze.unity
   isLoaded: 1
   isActive: 1

@@ -36,6 +36,7 @@ TagManager:
   - Delete5
   - Checkpoint
   - Mirror
+  - Death
   layers:
   - Default
   - TransparentFX

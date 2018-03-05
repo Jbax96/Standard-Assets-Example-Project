@@ -57,7 +57,7 @@ public class EnemyAttack : MonoBehaviour
 
                 if (health != null)
                 {
-                    health.Damage(gunDamage);
+                    health.TakeDamage(gunDamage);
                 }
 
                 if (hit.rigidbody != null)
